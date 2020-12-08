@@ -9,10 +9,11 @@ fun main(args: Array<String>) {
 
     println("The answer to the question ${q?.question} is ${q?.answer}")
 
-    val message = if (q?.answer == q?.correctAnswer){
-        "You were correct"
+    var message = "";
+    if (q?.answer == q?.correctAnswer){
+        message = "You were correct"
     } else {
-        "Try again"
+        message = "Try again"
     }
 
     val number:Int? = try {
@@ -47,6 +48,7 @@ class Question {
     }
 
     fun printResult(){
+        var answer: String? = "Brazil"
         when(answer){
             correctAnswer -> print("You were correct")
             else -> print("Try again")
@@ -59,7 +61,7 @@ private fun testePessoa() {
 
     erick.display()
 
-    erick.nome = "Erick Alves"
+    //erick.nome = "Erick Alves"
 
     erick.display()
 

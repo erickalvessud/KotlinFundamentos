@@ -1,0 +1,1 @@
+class Carro(val nome: String, val preco: Double)

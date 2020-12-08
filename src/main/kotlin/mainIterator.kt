@@ -14,10 +14,9 @@ fun testeLoopingIterandoLista(){
 
 fun testLoopingMapa(){
     var ages = TreeMap<String, Int>()
-    ages["Erick"] = 31
-    ages["Angelica"] = 31
+    ages["Maria"] = 31
+    ages["Jose"] = 31
     ages["Joao"] = 50
-    ages["Maria"] = 22
 
     for ((nome, idade) in ages){
         println("$nome tem $idade")

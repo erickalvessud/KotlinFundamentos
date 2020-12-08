@@ -11,7 +11,6 @@ fun main() {
 fun lerArquivo() {
     val arquivo =
         "/home/erick/Documents/workspace/estudo/pluralsight/kotlin_fundamentals/Exemplo/src/main/kotlin/teste"
-
     try {
         File(arquivo)
             .forEachLine(charset("UTF-8"), ::println)

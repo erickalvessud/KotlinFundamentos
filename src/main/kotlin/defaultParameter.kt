@@ -1,5 +1,5 @@
 fun main() {
-    log("Metodo chamadado kotlin")
+    log("Metodo chamado kotlin")
 }
 
 @JvmOverloads
